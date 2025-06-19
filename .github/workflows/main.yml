@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello World"
+      - name: Make API Call
+        run: |
+          curl https://jsonplaceholder.typicode.com/todos/1
+          echo "API call completed"
