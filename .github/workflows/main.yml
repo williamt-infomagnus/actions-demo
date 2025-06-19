@@ -17,6 +17,7 @@ jobs:
           curl https://jsonplaceholder.typicode.com/todos/1
           echo "API call completed"
   hello-william:
+    runs-on: ubuntu-latest
     steps:
       - name: Print Hello william
         run: echo "William is back!"
